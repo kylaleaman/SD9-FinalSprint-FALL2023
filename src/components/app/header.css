@@ -1,0 +1,25 @@
+.header-container {
+    background-color: #e4dcd1;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .nav-bar {
+    display: flex;
+    margin-top: 55px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #77736D;
+    font-size: 1.5rem;
+    margin-right: 40px;
+  }

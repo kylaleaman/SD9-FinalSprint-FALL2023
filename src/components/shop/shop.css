@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.page-description {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: #77736D;
+  padding: 20px 40px;
+}
+
+.page-description h1 {
+  margin-top: 40px;
+  font-size: 1.5rem;
+}
+
+.tops {
+  padding: 10px 40px;
+}
+
+.tops h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #77736D;
+  margin-bottom: 15px;
+}
+
+.tops-container {
+  display: flex;
+  justify-content: space-around; 
+  align-items:center;
+  gap: 10px; 
+}
+
+
+figcaption {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.shop-button {
+  background-color: #e4dcd1;
+  color: #77736D;
+  font-size: 1.1rem;
+  width: 150px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+
+.shoppopup-background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.shoppopup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80%;
+  overflow-y: auto;
+  max-height: 80vh;
+  background-color: #e4dcd1;
+  border: 1px solid lightgrey;
+  border-radius: 2%;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #77736D;
+}
+
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: #77736D;
+  background-color: #e4dcd1;
+  box-shadow: none;
+}
+
+.size-button {
+  margin: 15px;
+  color:#e4dcd1;
+  background-color: #77736D;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .menu-header {
+    padding: 10px; 
+  }
+
+  .menu-intro {
+    padding: 10px; 
+  }
+
+  .menu-sections {
+    padding: 10px; 
+  }
+
+  .menu-button {
+    font-size: 16pt; 
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  h1 {
+    font-size: 30pt;
+  }
+
+}
